@@ -12,7 +12,7 @@
 
 const ReactNative = require('react-native/Libraries/Renderer/shims/ReactNative');
 const { Image, StyleSheet, View, requireNativeComponent, NativeModules, NativeEventEmitter } = require('react-native');
-import EventEmitter from 'events';
+const EventEmitter = require('react-native/Libraries/vendor/emitter/EventEmitter');
 const RCTNavigatorManager = NativeModules.NavigatorManager;
 const React = require('react');
 const PropTypes = require('prop-types');
